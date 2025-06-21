@@ -1,0 +1,31 @@
+name: reader_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: ^3.4.1
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.1.0
+  file_picker: ^5.3.3 # Para selecionar arquivos/diretórios
+  path_provider: ^2.1.1 # Para acessar diretórios do dispositivo
+  epub_view: ^3.2.0 # Para extrair informações dos EPUBs
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/google.svg
+    - assets/book_cover/
