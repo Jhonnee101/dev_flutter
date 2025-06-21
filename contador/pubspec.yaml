@@ -1,0 +1,21 @@
+name: contador
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2 # Recomenda-se usar uma versão mais recente do SDK se possível, ex: ^3.4.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0 # Recomenda-se usar uma versão mais recente, ex: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets: # <--- CORRETO
+    - assets/images/foto.jpg
