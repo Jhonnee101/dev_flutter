@@ -29,5 +29,6 @@ class TodoListPage extends StatelessWidget {
   void login() {
     String text = emailController.text;
     print(text);
+    emailController.clear();
   }
 }
